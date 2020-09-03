@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	padding   : 0;
 	margin    : 0;
-    overflow  : hidden;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -10,13 +9,7 @@ body{
     height: 100%;
     width : 100%;
 }
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    padding: 2%;
-}
+
 .article-sup__firstText{
     font-weight: 400;
     font-size: 1.5em;
@@ -34,6 +27,18 @@ footer {
 
 }
 
+.section{
+    border-radius     : 2%;
+    border-style      : ridge ;
+    margin            : 8%;
+    -webkit-box-shadow: 10px 29px 54px -28px rgba(76,77,87,0.39);
+    -moz-box-shadow   : 10px 29px 54px -28px rgba(76,77,87,0.39);
+    box-shadow        : 10px 29px 54px -28px rgba(76,77,87,0.39);   
+}
+.boxTitle{
+    font-weight: 600;
+
+}
 /*TODO MEDIAS QUERIES */
 [class*="col-"] {
   width: 100%;
@@ -62,5 +67,14 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    *{
+        overflow: hidden;
+    }
+    footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding: 2%;
+    }
 }
