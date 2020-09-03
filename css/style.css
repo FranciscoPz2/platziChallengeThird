@@ -17,6 +17,22 @@ footer {
     text-align: center;
     padding: 2%;
 }
+.article-sup__firstText{
+    font-weight: 400;
+    font-size: 1.5em;
+    
+}
+.article-sup__TextPrincipal{
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+.article-sup__secondText{
+    font-size: .81em;
+    font-weight: 200;
+    text-align: center;
+
+}
 
 /*TODO MEDIAS QUERIES */
 [class*="col-"] {
@@ -24,7 +40,9 @@ footer {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .article-sup{
+        margin: 22% 8%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
