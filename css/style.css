@@ -108,15 +108,104 @@ figure{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    *{
+        overflow: hidden;
+    }
     .article-sup{
-        margin: 8% 8%;
+        margin: 4% 8% 0;
+    }
+    .boxContainer{
+        display              : grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows       : auto;   
+        margin: 0 12% 2%;
+    }
+    .article-sup__secondText {
+        font-size: .71em;
+        padding  : 0 32em;
+        margin   : 1% 0 1%;
+    }
+    .aqua-box{
+        grid-row-start: 1;
+        grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+    }
+    .blue-box{
+        grid-row-start: 1;
+        grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+
+    }
+    .boxSubTitle{
+        font-size: .71em;
+        margin: 2% 0;
+    }
+    figure svg{
+        width: 50;
+        height: 50;
+    }
+    footer {
+        visibility: initial;
+        font-size: .61em;
+        width     : 100%;
+        position  : absolute;
+        bottom    : 0;
+        text-align: center;
+        padding   : 2%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  
+    *{
+        overflow: hidden;
+    }
     .article-sup{
-        margin: 8% 8%;
+        margin: 4% 8% 0;
+    }
+    .boxContainer{
+        display              : grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows       : auto;   
+        margin: 0 12% 2%;
+    }
+    .article-sup__secondText {
+        font-size: .71em;
+        padding  : 0 32em;
+        margin   : 1% 0 1%;
+    }
+    .aqua-box{
+        grid-row-start: 1;
+        grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+    }
+    .blue-box{
+        grid-row-start: 1;
+        grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+
+    }
+    .boxSubTitle{
+        font-size: .71em;
+        margin: 2% 0;
+    }
+    figure svg{
+        width: 50;
+        height: 50;
+    }
+    footer {
+        visibility: initial;
+        font-size: .61em;
+        width     : 100%;
+        position  : absolute;
+        bottom    : 0;
+        text-align: center;
+        padding   : 2%;
     }
 }
 
