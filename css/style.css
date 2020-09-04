@@ -29,24 +29,65 @@ body{
 
 .section{
     border-radius     : 2%;
-    border-style      : ridge ;
+    /* border-style   : ridge ; */
     margin            : 8%;
-    -webkit-box-shadow: 10px 29px 54px -28px rgba(76,77,87,0.39);
-    -moz-box-shadow   : 10px 29px 54px -28px rgba(76,77,87,0.39);
-    box-shadow        : 10px 29px 54px -28px rgba(76,77,87,0.39);   
+    -webkit-box-shadow: -1px 33px 85px -31px hsl(229, 6%, 66%);
+    -moz-box-shadow   : -1px 33px 85px -31px hsl(229, 6%, 66%);
+    box-shadow        : -1px 33px 85px -31px hsl(229, 6%, 66%);
 }
 .boxTitle{
     font-weight: 600;
+    
+}
+.boxSubTitle{
+    font-weight: 200;
+    font-size: .81em;
+    margin: 2% 0;
+
+}
+.aqua-box{
+    border-top   : 2px solid  hsl(180, 62%, 55%);
+    border-radius: 5px;
+    padding      : 7%;
+}
+.red-box{
+    border-top   : 2px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    padding      : 7%;
+
+}
+.yellow-box{
+    border-top   : 2px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    padding      : 7%;
+    
+}
+.blue-box{
+    border-top   : 2px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+    padding      : 7%;
 
 }
 /*TODO MEDIAS QUERIES */
 [class*="col-"] {
   width: 100%;
 }
+figure{
+    align-self    : flex-end;
+    justify-self  : right;
+    position      : relative;
+    vertical-align: bottom;
+    align-items   : end;
+    text-align    : end;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .article-sup{
         margin: 22% 8%;
+    }
+    footer {
+        width: 100%;
+        visibility: hidden;
     }
 }
 
