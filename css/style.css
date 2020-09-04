@@ -9,6 +9,9 @@ body{
     height: 100%;
     width : 100%;
 }
+.article-sup{
+    text-align: center;
+}
 
 .article-sup__firstText{
     font-weight: 400;
@@ -79,11 +82,12 @@ figure{
     vertical-align: bottom;
     align-items   : end;
     text-align    : end;
+    margin        : 7% 0 0; 
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .article-sup{
-        margin: 22% 8%;
+        margin    : 22% 8%;
     }
     footer {
         width: 100%;
@@ -93,7 +97,13 @@ figure{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .article-sup{
+        margin: 22% 8%;
+    }
+    footer {
+        width: 100%;
+        visibility: hidden;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
