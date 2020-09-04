@@ -142,6 +142,15 @@ figure{
     .aqua-box{
         grid-row-start: 1;
         grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+    }
+    .blue-box{
+        grid-row-start: 1;
+        grid-row-end  : 2;
+        position      : relative;
+        top           : 21.5%;
+
     }
     .boxSubTitle{
         font-size: .71em;
